@@ -341,9 +341,9 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '试着好好练一下？';
-    if (score <= 99) return 'TCL';
-    if (score <= 149) return 'TQL';
+    if (score <= 49) return '不合口味吗？';
+    if (score <= 99) return '乐希来全吃了';
+    if (score <= 149) return '老板不仅有钱长得帅还很有眼光';
     if (score <= 199) return '您';
     return '人？';
 }
